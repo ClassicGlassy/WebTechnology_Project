@@ -1,0 +1,125 @@
+/*Header Sections Start*/
+
+
+#header .header {
+    height: 134.75px;
+    width: auto;
+    background-color: #B6B9E2;
+}
+#header .header img {
+    float: left;
+    padding-left: 5%;
+    width: 109.75px;
+    height: 127.75px;
+}
+#header .header h1 {
+    position: relative;
+    text-align: center;
+}
+#header .header h3{
+    position: relative;
+    text-align: center;
+}
+
+/* Header Sections End*/
+
+/*Body Section Start*/
+
+#content {
+    /* size: max-content; */
+    width: 100%;
+    height: auto;
+    background-color: gainsboro;
+}
+
+
+#content .side_menu {
+    /* position: absolute; */
+    float: left;
+    width: 12%;
+    height: auto;
+    text-align: center;
+    background-color: aquamarine;
+    padding-top: 1px;
+    font-size: x-large;
+}
+
+#content .body_menu {
+    width: auto;
+    height: auto;
+}
+
+
+#content .body_menu h1{
+    padding-top: 30px;
+    text-align: center;
+}
+
+#content .body_menu p{
+    padding-left: 15%;
+    text-align: left;
+    color: darkblue;
+    font-size: large;
+    
+}
+
+#content .body_menu p#paragraph_Title{
+    padding-left: 20%;
+    font-size: x-large;
+    text-align: left;
+    color:blueviolet;
+
+
+}
+
+#content .body_menu ul#alignLeft{
+    padding-left: 20%;
+    text-align: left;
+    font-size: large;
+    font-style: italic;
+}
+
+/*Body Section End*/
+
+/* Footer Section Start */
+#footer {
+    background-color: burlywood;
+}
+
+#footer .footer{
+    text-align: center;
+}
+/* Footer Section End */
+
+/* Form Pages */
+
+label{
+    width: 120px;
+    display: inline-block;
+}
+
+label#longLabel{
+    width: 250px;
+}
+
+.form{
+    font-size: large;
+}
+
+form{
+    padding-left: 13%;
+}
+
+.buttons{
+    text-align: center;
+}
+
+button{
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+}
+
+/* Form Pages */

@@ -1,0 +1,121 @@
+<html>
+    <head>
+        <title>BCA Form</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+
+    <body>
+        <div id="header">
+            <div class="header">
+                <img src="TU_logo.png" alt="logo"/>
+                <h1>TRIBHUVAN UNIVERSITY</h1>
+                <h3>Faculty of Humanities and Social Sciences</h3>
+                <h3>Kirtipur, Kathmandu, Nepal</h3>
+            </div>
+        </div>
+
+        <div id="content">
+            
+            <div class="side_menu">
+                <p><a href="home.html">Home</a></p>
+                <p><a href="eligiblity.html">Eligiblity</a></p>
+                <p><a href="form.html">Form Fill Up</a></p>
+                <p><a href="about.html">About BCA</a></p>
+            </div>
+
+            <div class="body_menu">
+                <h1><u>BCA: Form</u></h1>
+                <h3 style="padding-left: 13%;">Registration Form</h3>
+                <form>
+                    <fieldset class="form">
+                        <legend>Personal Information</legend>
+                        <div class="group">
+                            <label for="f_name">First Name</label>
+                            <input type="text" name="name" id="fname" placeholder="Enter First Name">
+                            <label for="m_name">Middle Name</label>
+                            <input type="text" name="name" id="mname" placeholder="Enter Middle Name">
+                            <label for="l_name">Last Name</label>
+                            <input type="text" name="name" id="lname" placeholder="Enter Last Name">
+                        </div>
+                        <br>
+                        <div class="group">
+                            <label for="father_name">Father's Name</label>
+                            <input type="text" name="father_name" id="father_name" placeholder="Enter Father's Name">
+                            <label for="mother_name">Mother's Name</label>
+                            <input type="text" name="father_name" id="father_name" placeholder="Enter Mother's Name">
+                        </div>
+                        <br>
+                        <div class="group">
+                            <label for="dob" name="dob">Date of Birth</label>
+                            <input type="text" name="dob" id="dob" placeholder="YYYY/MM/DD">
+                        </div>
+                        <br>
+                        <div class="group">
+                            <label for="gender">Gender</label>
+                            <input type="radio" name="gender" id="male" checked>Male</input>
+                            <input type="radio" name="gender" id="female" >Female</input>
+                            <input type="radio" name="gender" id="other" >Others</input>
+                        </div>
+                        <br>
+                        <div class="group">
+                            <label for="address" id="longLabel">Permanent Address</label>
+                            <br>
+                            <textarea name="address" id="address" cols="50" rows="2" placeholder="Enter your Address"></textarea>
+                        </div>
+                        <br>
+                        <div class="group">
+                            <label for="marital">Marital Status</label>
+                            <select>
+                                <option value="un-married" selected>Unmarried</option>
+                                <option value="married">Married</option>
+                            </select>
+                        </div>
+                    </fieldset>
+                    <br>
+                    <fieldset class="form">
+                        <legend>Education Details</legend>
+                        <div class="group">
+                            <label for="educationDetail" id="longLabel">Enter your Educational Details</label>
+                            <br>
+                            <label for="schoolGrade" id="longLabel"><b>SLC/ SEE/ Equivalent Level</b></label>
+                            <select>
+                                <option value="np" selected>Government of Nepal</option>
+                                <option value="in">CBSE</option>
+                            </select>
+                            <input type="text" name="schoolYear" placeholder="Completed Year in B.S.">
+                            <input type="text" name="schoolGrade" placeholder="Division / Grade">
+                            <br>
+                            <br>
+                            <label for="hschoolGrade" id="longLabel"><b>+2 / Equivalent Level</b></label>
+                            <select>
+                                <option value="sci" selected>Science</option>
+                                <option value="mgmt">Management</option>
+                                <option value="huma">Arts & Humanities</option>
+                            </select>
+                            <input type="text" name="hschoolYear" placeholder="Completed Year in B.S.">
+                            <input type="text" name="hschoolGrade" placeholder="Division / Grade">
+                            <br>
+                            <br>
+                            <label for="otherQualification" id="longLabel">Other Qualifications</label>
+                            <br>
+                            <textarea name="otherQual" rows="1" cols="120" placeholder="Other Qualifications"></textarea>
+                        </div>
+                    </fieldset>
+                    <br>
+                    <div class="buttons">
+                        <button id="submitButton">Submit</button>
+                        <button id="cancelButton">Cancel</button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+
+
+        <div id="footer">
+            <div class="footer">
+                <h2>Copyright &copy; 2023 BCA 3<sup>rd</sup> Semester, Mega National College</h2>
+            </div>
+        </div>
+    </body>
+</html>
